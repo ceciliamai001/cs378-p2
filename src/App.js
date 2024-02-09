@@ -78,16 +78,20 @@ const menuItems = [
   }
 ];
 
+function MenuHeader() {
+  return (
+    <div className='header'>
+      <img className="logo" src={logo} alt="logo" />
+      <div className="subheading">Food for the soul, from the heart</div>
+      <div className="graytext">Fresh, Fast, and Friendly!</div>
+    </div>
+  );
+};
 
 function App() {
   return (
     <div className='body'>
-      <div className='header'>
-        <img className="logo" src={logo} alt="logo" />
-
-        <div className="subheading">Food for the soul, from the heart</div>
-        <div className="graytext">Fresh, Fast, and Friendly!</div>
-      </div>
+      <MenuHeader />
       <div className="menu">
         {menuItems.map((item) => (
         <MenuItem 
