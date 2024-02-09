@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-body {
+.body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,6 +61,10 @@ h2 {
 .description {
   font-family: 'Times New Roman', serif;
   font-size: 17px;
+  text-align: left;
+}
+
+.left{
   text-align: left;
 }
   

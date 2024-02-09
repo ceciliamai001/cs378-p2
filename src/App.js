@@ -81,9 +81,9 @@ const menuItems = [
 
 function App() {
   return (
-    <div>
+    <div className='body'>
       <div className='header'>
-      <img className="logo" src={logo} alt="logo" />
+        <img className="logo" src={logo} alt="logo" />
 
         <div className="subheading">Food for the soul, from the heart</div>
         <div className="graytext">Fresh, Fast, and Friendly!</div>

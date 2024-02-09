@@ -14,11 +14,11 @@ const MenuItem = ({ title, description, imageName, price }) => {
                 </div>
                 <div class = "col-8">
                     <div style={{ paddingLeft: '20px' }}>
-                        <h2>{title}</h2>
+                        <div className='left'><h2>{title}</h2></div>
                         <p className='description'>{description}</p>
                         <div class="row">
                             <div class="col-8">
-                                <p>{price}</p>
+                                <div className='left'><p>{price}</p></div>
                             </div>
                             <div class="col-4">
                                 <button className="rounded" style={{float:'right'}}>Add</button>
