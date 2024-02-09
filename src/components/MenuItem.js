@@ -14,7 +14,7 @@ const MenuItem = ({ title, description, imageName, price }) => {
                 </div>
                 <div class = "col-8">
                     <div style={{ paddingLeft: '30px' }}>
-                        <div className='left'><h2>{title}</h2></div>
+                        <div className='left'><div className='item'>{title}</div></div>
                         <p className='description'>{description}</p>
                         <div class="row">
                             <div class="col-8">
