@@ -13,7 +13,7 @@ const MenuItem = ({ title, description, imageName, price }) => {
                     <img className="menu-image-rounded" src={require(`../images/${imageName}`)} alt={title} />
                 </div>
                 <div class = "col-8">
-                    <div style={{ paddingLeft: '20px' }}>
+                    <div style={{ paddingLeft: '30px' }}>
                         <div className='left'><h2>{title}</h2></div>
                         <p className='description'>{description}</p>
                         <div class="row">
